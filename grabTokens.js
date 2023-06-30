@@ -11,17 +11,23 @@ const address = "0x3Dbf0047dd16BfEC26b18419be6F36382e383852";
 
 const tokens = [
   {
-    symbol: "AURA",
-    address: "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF",
-    from: "0xBB19053E031D9B2B364351B21a8ed3568b21399b",
-    amount: parseEther("100000"),
+    symbol: "CRV",
+    address: "0xD533a949740bb3306d119CC777fa900bA034cd52",
+    from: "0xF977814e90dA44bFA03b6295A0616a897441aceC",
+    amount: parseEther("35000000"),
   },
-  {
-    symbol: "CVX",
-    address: "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
-    from: "0x15A5F10cC2611bB18b18322E34eB473235EFCa39",
-    amount: parseEther("200000"),
-  },
+  // {
+  //   symbol: "AURA",
+  //   address: "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF",
+  //   from: "0xBB19053E031D9B2B364351B21a8ed3568b21399b",
+  //   amount: parseEther("100000"),
+  // },
+  // {
+  //   symbol: "CVX",
+  //   address: "0x4e3FBD56CD56c3e72c1403e103b45Db9da5B9D2B",
+  //   from: "0x15A5F10cC2611bB18b18322E34eB473235EFCa39",
+  //   amount: parseEther("200000"),
+  // },
 ];
 
 async function grabToken(token) {
