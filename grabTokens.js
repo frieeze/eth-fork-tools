@@ -11,11 +11,17 @@ const address = "0x3Dbf0047dd16BfEC26b18419be6F36382e383852";
 
 const tokens = [
   {
-    symbol: "CRV",
-    address: "0xD533a949740bb3306d119CC777fa900bA034cd52",
-    from: "0xF977814e90dA44bFA03b6295A0616a897441aceC",
+    symbol: "DAI",
+    address: "0x6B175474E89094C44Da98b954EedeAC495271d0F",
+    from: "0x60FaAe176336dAb62e284Fe19B885B095d29fB7F",
     amount: parseEther("35000000"),
   },
+  // {
+  //   symbol: "CRV",
+  //   address: "0xD533a949740bb3306d119CC777fa900bA034cd52",
+  //   from: "0xF977814e90dA44bFA03b6295A0616a897441aceC",
+  //   amount: parseEther("35000000"),
+  // },
   // {
   //   symbol: "AURA",
   //   address: "0xC0c293ce456fF0ED870ADd98a0828Dd4d2903DBF",
